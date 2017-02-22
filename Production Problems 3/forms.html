@@ -10,12 +10,10 @@
 
 <body>
 	<section id="form">
-		<h1>
-			Volunteer Form
-		</h1>
+		<h1>Volunteer Form</h1>
 		<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="POST">
+			<legend>My Info</legend>
 			<fieldset id="pinfo">
-				<legend>Personal Information Section</legend>
 					<p>
 						<label>First Name: <input type="text" name="first_name_field" placeholder="First Name"></label>
 					</p>
@@ -49,8 +47,9 @@
 						</select>
 					</p>
 			</fieldset>
+			<br>
+			<legend>My Availability</legend>
 			<fieldset id="availability">
-				<legend>Availability Section</legend>
 					<p>
 						<label>Day(s) Available:</label>
 						<br>
@@ -69,8 +68,9 @@
 						<label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label>
 					</p>
 			</fieldset>
+			<br>
+			<legend>Comment Section</legend>
 			<fieldset id="comments">
-				<legend>Comment Section</legend>
 					<p>
 						<label for="commentbox">Any Comments?</label>
 						<br>
@@ -81,7 +81,7 @@
 					</p>
 			</fieldset>
 			<p>
-				<input type="submit" value="Submit!">
+				<input type="submit" value="Send Me">
 			</p>
 		</form>
 	</section>
