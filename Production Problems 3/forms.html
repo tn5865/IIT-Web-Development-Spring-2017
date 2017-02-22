@@ -12,77 +12,78 @@
 	<section id="form">
 		<h1>Volunteer Form</h1>
 		<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="POST">
-			<legend>My Info</legend>
 			<fieldset id="pinfo">
-					<p>
-						<label>First Name: <input type="text" name="first_name_field" placeholder="First Name"></label>
-					</p>
-					<p>
-						<label>Last Name: <input type="text" name="last_name_field" placeholder="Last Name"></label>
-					</p>
-					<p>
-						<label>Phone Number: <input type="tel" name="phone_field" placeholder="Phone Number"></label>
-					</p>
-					<p>
-						<label>Email Address: <input type="email" name="email_field" placeholder="Email Address"></label>
-					</p>
-					<p>
-						<label>Gender:</label>
-						<br>
-						<label>Male <input type="radio" name="gender_field" value="Male"></label>
-						<br>
-						<label>Female <input type="radio" name="gender_field" value="Female"></label>
-						<br>
-					</p>
-					<p>
-						<label>Age: </label>
-						<select name="age field">
-							<option value="Under 18">Under 18</option>
-							<option value="18-24">18-24</option>
-							<option value="25-34">25-34</option>
-							<option value="35-44">35-44</option>
-							<option value="45-54">45-55</option>
-							<option value="55-64">55-64</option>
-							<option value="65 And Over">65 And Over</option>
-						</select>
-					</p>
+				<legend>My Info</legend>
+				<p>
+					<label>First Name: <input type="text" name="first_name_field" placeholder="First Name"></label>
+				</p>
+				<p>
+					<label>Last Name: <input type="text" name="last_name_field" placeholder="Last Name"></label>
+					
+				</p>
+				<p>
+					<label>Phone Number: <input type="tel" name="phone_field" placeholder="Phone Number"></label>
+				</p>
+				<p>
+					<label>Email Address: <input type="email" name="email_field" placeholder="Email Address"></label>
+				</p>
+				<p>
+					<label>Gender:</label>
+					<br>
+					<label>Male <input type="radio" name="gender_field" value="Male"></label>
+					<br>
+					<label>Female <input type="radio" name="gender_field" value="Female"></label>
+					<br>
+				</p>
+				<p>
+					<label>Age: </label>
+					<select name="age field">
+						<option value="Under 18">Under 18</option>
+						<option value="18-24">18-24</option>
+						<option value="25-34">25-34</option>
+						<option value="35-44">35-44</option>
+						<option value="45-54">45-55</option>
+						<option value="55-64">55-64</option>
+						<option value="65 And Over">65 And Over</option>
+					</select>
+				</p>
 			</fieldset>
 			<br>
-			<legend>My Availability</legend>
 			<fieldset id="availability">
-					<p>
-						<label>Day(s) Available:</label>
-						<br>
-						<label>Sunday <input type="checkbox" name="available_field[]" value="Sunday"></label>
-						<br>
-						<label>Monday <input type="checkbox" name="available_field[]" value="Monday"></label>
-						<br>
-						<label>Tuesday <input type="checkbox" name="available_field[]" value="Tuesday"></label>
-						<br>
-						<label>Wednesday <input type="checkbox" name="available_field[]" value="Wednesday"></label>
-						<br>
-						<label>Thursday <input type="checkbox" name="available_field[]" value="Thursday"></label>
-						<br>
-						<label>Friday <input type="checkbox" name="available_field[]" value="Friday"></label>
-						<br>
-						<label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label>
-					</p>
+				<legend>My Availability</legend>
+				<p>
+					<label>Day(s) Available:</label>
+					<br>
+					<label>Sunday <input type="checkbox" name="available_field[]" value="Sunday"></label>
+					<br>
+					<label>Monday <input type="checkbox" name="available_field[]" value="Monday"></label>
+					<br>
+					<label>Tuesday <input type="checkbox" name="available_field[]" value="Tuesday"></label>
+					<br>
+					<label>Wednesday <input type="checkbox" name="available_field[]" value="Wednesday"></label>
+					<br>
+					<label>Thursday <input type="checkbox" name="available_field[]" value="Thursday"></label>
+					<br>
+					<label>Friday <input type="checkbox" name="available_field[]" value="Friday"></label>
+					<br>
+					<label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label>
+				</p>
 			</fieldset>
 			<br>
-			<legend>Comment Section</legend>
 			<fieldset id="comments">
-					<p>
-						<label for="commentbox">Any Comments?</label>
-						<br>
-						<textarea cols="30" rows="10" name="comments_field" placeholder="Comment(s)" id="commentbox"></textarea>
-					</p>
-					<p>
-						<input type="hidden" name="hidden_field" value="tnguye32">
-					</p>
+				<legend>Comment Section</legend>
+				<p>
+					<label for="commentbox">Any Comments?</label>
+					<br>
+					<textarea cols="30" rows="10" name="comments_field" placeholder="Comment(s)" id="commentbox"></textarea>
+				</p>
+				<p>
+					<input type="hidden" name="hidden_field" value="tnguye32">
+				</p>
 			</fieldset>
-			<p>
-				<input type="submit" value="Send Me">
-			</p>
+				<p>
+					<input type="submit" value="Send Me">
+				</p>
 		</form>
 	</section>
 </body>
