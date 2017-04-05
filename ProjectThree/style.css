@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Same across all three pages */
+body {
+	background-image: url(Images/BgImage.jpg);
+	background-color: #000000;
+	color: 	#DCDCDC;
+	font-family: 'Graduate', cursive;
+}
+
+/* Same across all three pages */
+h1,h2,h3 {
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 260%;
+	text-decoration: underline;
+}
+
+/* Same across all three pages */
+p {
+	margin: 1% 2% 3% 0%;
+}
+
+nav#navmenu {
+	background-color: #212121;
+}
+
+nav#navmenu ul {
+	list-style-type: none;
+	padding: 1%;
+	width: 400px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+nav#navmenu ul li {
+	float: left;
+	padding: 1%;
+}
+
+nav#navmenu ul li a {
+	display: block;
+	font-size: 150%;
+	color: #fff;
+	font-family: 'Graduate', cursive;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+nav#navmenu ul li a:hover {
+	color: #000000;
+	background-color: #ccc;
+	text-decoration: underline;
+}
+
+#mypic {
+	margin: 1% 1% 1% 7%;
+}
+
+#iitlogo {
+	margin: 1% 1% 1% 10%;
+}
+
+#ulexperience1, #ulexperience2, #ulexperience3, #ulschools, #ulskills {
+	margin: 1% 2% 1% 2%;
+	list-style: square;
+}
+
+#ulclass1, #ulclass2 {
+	margin: 1% 2% 1% 7%;
+	list-style-image: url('http://findicons.com/files/icons/1620/crystal_project/32/mycomputer.png');
+}
+
+
+
+#footer {
+	margin: 0px auto;
+	width: 300px;
+}
+
+/*Fixed Pages*/
+#indexmain, #resumemain {
+	height: 1000px;
+	width: 700px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Fluid Page*/
+#schoolmain {
+	width: 40%;
+	margin-left: 30%;
+	float: left;
+	background-color: #000000;
+}
+
