@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Tony Nguyen - Homepage</title>
+	<title>Tony Nguyen - Travels</title>
 	<link rel="stylesheet" type="text/css" href="CSS/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/javascript.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
 </head>
@@ -19,20 +21,21 @@
 			</ul>
 		</nav>
 	</header>
-	<div id=indexmain>
-		<p id="mypic">
-			<img src="Images/Tony.jpg" alt="Tony Nguyen">
-		</p>
-		<section id="intro">
-			<h1 class="titles">Introduction</h1>
-			<p>
-				Hello Everyone! My name is Tony Nguyen. This is my first website!
-				It is a work in progress using basic HTML and CSS elements.
-				Please direct any questions and or comments to my email found at the bottom of this website.
-				Thank you!
-			</p>
-		</section>
-	</div>
+	<div class="container">
+        <div class="header">
+            <h1 class="titles">Destinations Traveled</h1>
+        </div>
+        <div id="slider">
+            <ul class="slides">
+				<li class="slide"><img src="Images/saigon.jpg" alt="Saigon, Vietnam"/></li>
+				<li class="slide"><img src="Images/sanfran.jpg" alt="San Francisco, United States"/></li>
+				<li class="slide"><img src="Images/andong.jpg" alt="Andong, Korea"/></li>
+				<li class="slide"><img src="Images/akihabara.jpg" alt="Akihabara, Japan"/></li>
+				<li class="slide"><img src="Images/seoul.jpg" alt="Seoul, Korea"/></li>
+				<li class="slide"><img src="Images/saigon.jpg" alt="Saigon, Vietnam"/></li>
+			</ul>
+        </div>
+    </div>
 	<footer id="footer">
 		<p>
 			Created by Tony Nguyen
